@@ -1,0 +1,305 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.seomonitor.com/#organization",
+      "name": "SEOmonitor",
+      "url": "https://www.seomonitor.com/",
+      "foundingDate": "2010",
+      "description": "SEOmonitor is an SEO data and automation platform for SEO agencies and in-house teams, combining daily rank tracking, AI Overviews and AI search visibility tracking, automatic keyword research, SEO forecasting and AI-assisted content writing.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.seomonitor.com/#logo",
+        "url": "https://www.seomonitor.com/wp-content/uploads/2023/09/logo-white-on-black.png",
+        "contentUrl": "https://www.seomonitor.com/wp-content/uploads/2023/09/logo-white-on-black.png",
+        "caption": "SEOmonitor"
+      },
+      "image": { "@id": "https://www.seomonitor.com/#logo" },
+      "sameAs": [
+        "https://www.linkedin.com/company/seomonitor-application/",
+        "https://twitter.com/seomonitor"
+      ],
+      "knowsAbout": [
+        "Search engine optimization",
+        "Rank tracking",
+        "SEO forecasting",
+        "Keyword research",
+        "Content marketing automation",
+        "Google AI Overviews",
+        "AI search visibility"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.seomonitor.com/#website",
+      "url": "https://www.seomonitor.com/",
+      "name": "SEOmonitor",
+      "publisher": { "@id": "https://www.seomonitor.com/#organization" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": ["WebPage", "FAQPage"],
+      "@id": "https://www.seomonitor.com/automation#webpage",
+      "url": "https://www.seomonitor.com/automation",
+      "name": "SEOmonitor's Unique Content Marketing Automation for SEO",
+      "description": "Improve your search visibility with smart keyword suggestions, precise SEO forecasts, and AI-driven articles that rank faster and for more searches.",
+      "isPartOf": { "@id": "https://www.seomonitor.com/#website" },
+      "about": { "@id": "https://www.seomonitor.com/automation#software" },
+      "breadcrumb": { "@id": "https://www.seomonitor.com/automation#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.seomonitor.com/wp-content/uploads/2024/11/Facebook-post-2-1.png"
+      },
+      "datePublished": "2024-11-23T09:36:52+00:00",
+      "dateModified": "2024-12-10T08:16:24+00:00",
+      "inLanguage": "en-US",
+      "significantLink": [
+        "https://www.seomonitor.com/content-writer/",
+        "https://www.seomonitor.com/seo-forecast/",
+        "https://www.seomonitor.com/seo-research/",
+        "https://www.seomonitor.com/rank-tracker/",
+        "https://www.seomonitor.com/pricing/"
+      ],
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does SEOmonitor's content marketing automation work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Step 1: Keyword Discovery and Impact Forecasting. Simply add your website, and we'll automatically identify the best keywords for you by analyzing your geography and competitors, sorting them by ranking impact. We'll then group these keywords into categories based on your website's industry and main navigation. We also forecast the impact these keywords will have on sessions once they start ranking, helping you showcase the potential impact and timeline of your SEO strategy. Step 2: Content Planning and Prioritization. We select the three most impactful keywords for content creation. For each selected keyword, we build topical clusters just like a search engine would, analyzing competitor keywords to prioritize those with the highest search volume and relevance. Using this data, plus SERP insights (like word count, headings, etc.), we generate a content outline designed to target the largest search opportunity. You can adjust the outline to fit your specific needs. Step 3: Content Creation. Finally, we create the article, complete with internal linking suggestions based on your existing site content. This entire process takes under 15 minutes, delivering a publish-ready, rank-ready article aligned with your SEO goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is SEOmonitor faster for content marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEOmonitor accelerates your content marketing efforts by streamlining the process of keyword research and content approval. Automatic Keyword Research: our platform identifies high-value keyword opportunities with informational intent, saving you time and effort while ensuring your content is aligned with audience needs and search demand. Built-in Forecasting: by demonstrating the potential impact of your content through detailed forecasts, you can get faster buy-in from clients and stakeholders. This avoids the typical delays of content being stuck in approval queues and allows your team to move forward with confidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is SEOmonitor able to capture more search traffic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEOmonitor's unique approach ensures your content targets the right keywords and delivers maximum visibility by leveraging SERP-Based Topical Clustering: our technology groups keywords into topics based on real SERP behaviour, ensuring your content strategy targets the most relevant and impactful keywords within a topic. Expert SEO Briefs: we automatically integrate the highest-volume and most relevant keywords into the main sections of your content, enhancing its search performance and aligning it with user intent. This combination ensures you not only rank higher but also capture the search traffic that truly matters to your goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Content Writer is a paid add-on of SEOmonitor and costs €49 per month for 10 generated articles. For more information, please refer to our pricing page.",
+            "url": "https://www.seomonitor.com/pricing/"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Content Writer support multiple languages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the Content Writer supports content generation in any language, allowing you to create SEO-optimized articles for global audiences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a feature for internal linking within the content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, SEOmonitor's Writer suggests appropriate internal links based on your existing content, enhancing site navigation and SEO performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the AI ensure the content aligns with our brand voice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEOmonitor analyzes your existing content and brand guidelines to understand your unique tone and style. It then generates content that reflects your brand's voice, ensuring consistency across all articles with campaign-level branding guidelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Opportunity Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Opportunity Score is an SEOmonitor metric that estimates the potential traffic and conversions a keyword could achieve if it ranks in the top three. It combines data on organic CTRs — based on user behavior across 6 million keywords — with search volume and trend analysis to give an accurate projection of a keyword's traffic potential. This helps prioritize keywords that offer the highest impact for your strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I customize the content generated by the AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. The Content Writer provides a strong initial draft, and the SEO score ensures that your article remains aligned with the identified opportunity. You and your stakeholders can easily edit and refine the content to better fit your specific needs and preferences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer a free trial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can start testing everything in the SEOmonitor platform without any spending commitment."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.seomonitor.com/automation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.seomonitor.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Content Marketing Automation",
+          "item": "https://www.seomonitor.com/automation"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.seomonitor.com/automation#software",
+      "name": "SEOmonitor Content Marketing Automation",
+      "alternateName": "SEOmonitor AI Content Writer",
+      "url": "https://www.seomonitor.com/automation",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "SEO software",
+      "operatingSystem": "Web browser (Chrome, Safari, Firefox, Edge)",
+      "description": "AI-powered SEO research, planning and content production inside SEOmonitor: automatic keyword research with AI clustering and Opportunity Score, SEO forecasting for sessions, conversions and revenue, SERP-based topical aggregation, expert SEO briefs and AI-enhanced articles, tracked with daily rank tracking.",
+      "isPartOf": {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.seomonitor.com/#software",
+        "name": "SEOmonitor",
+        "url": "https://www.seomonitor.com/",
+        "applicationCategory": "BusinessApplication"
+      },
+      "provider": { "@id": "https://www.seomonitor.com/#organization" },
+      "publisher": { "@id": "https://www.seomonitor.com/#organization" },
+      "softwareHelp": "https://help.seomonitor.com/",
+      "featureList": [
+        "Automatic keyword research that saves 90% of research time",
+        "AI Clustering: automatic semantic grouping of thousands of keywords",
+        "Opportunity Score: real-time keyword priority score based on organic CTR, trends, search volume and authority",
+        "SEO Forecasting for sessions, conversions and revenue using per-rank and per-device CTR curves",
+        "Article-level traffic estimates for faster stakeholder approvals",
+        "SERP-based topical aggregation across a 100M+ keyword database",
+        "Expert SEO briefs with automatically balanced titles, headings and structure",
+        "Three AI writing strategies: Authority Enhancer, Fresh Perspective and Comprehensive Guide",
+        "Internal linking suggestions based on existing site content",
+        "Content generation in any language",
+        "Campaign-level brand voice and branding guidelines",
+        "Precise daily rank tracking per device",
+        "Keyword cannibalization detection",
+        "Revenue and session measurement per targeted keyword",
+        "Full SERP feature detection, including AI Overviews"
+      ],
+      "audience": {
+        "@type": "BusinessAudience",
+        "name": "SEO agencies and in-house SEO teams",
+        "audienceType": "SEO agencies, in-house SEO and content teams managing multiple campaigns, publishing 10+ articles per month or tracking 1,000+ keywords"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "SEOmonitor free trial",
+          "description": "Test the full SEOmonitor platform without a spending commitment.",
+          "url": "https://app.seomonitor.com/v2/ungated/wizard",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "AI Content Writer add-on",
+          "description": "Paid SEOmonitor add-on: €49 per month for 10 generated articles.",
+          "url": "https://www.seomonitor.com/pricing/",
+          "price": "49",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "category": "Add-on",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "49",
+            "priceCurrency": "EUR",
+            "billingDuration": 1,
+            "unitCode": "MON",
+            "unitText": "month",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 10,
+              "unitText": "generated articles per month"
+            }
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "REPLACE_WITH_G2_REVIEW_COUNT"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewBody": "We've increased our team's productivity by 10× with SEOmonitor.",
+        "author": {
+          "@type": "Person",
+          "name": "Radu Marcusu",
+          "jobTitle": "CEO",
+          "worksFor": { "@type": "Organization", "name": "Upswing" }
+        },
+        "itemReviewed": { "@id": "https://www.seomonitor.com/automation#software" }
+      },
+      "potentialAction": {
+        "@type": "RegisterAction",
+        "name": "Start a free trial",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://app.seomonitor.com/v2/ungated/wizard",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.seomonitor.com/automation#howto",
+      "name": "How SEOmonitor's content marketing automation works",
+      "description": "From website to publish-ready, rank-ready article in under 15 minutes, in three automated steps.",
+      "totalTime": "PT15M",
+      "about": { "@id": "https://www.seomonitor.com/automation#software" },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Keyword discovery and impact forecasting",
+          "text": "Add your website. SEOmonitor identifies the best keywords by analyzing your geography and competitors, sorts them by ranking impact, groups them into categories based on your industry and main navigation, and forecasts the sessions those keywords will bring once they rank.",
+          "url": "https://www.seomonitor.com/automation#keyword-research"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Content planning and prioritization",
+          "text": "SEOmonitor selects the three most impactful keywords, builds topical clusters the way a search engine would, analyzes competitor keywords by search volume and relevance, and generates an editable content outline targeting the largest search opportunity.",
+          "url": "https://www.seomonitor.com/automation#forecasting"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Content creation",
+          "text": "SEOmonitor writes the article with internal linking suggestions based on your existing site content, delivering a publish-ready, rank-ready article aligned with your SEO goals.",
+          "url": "https://www.seomonitor.com/automation#content-writer"
+        }
+      ]
+    }
+  ]
+}

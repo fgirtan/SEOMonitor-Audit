@@ -1,0 +1,196 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.seomonitor.com/#organization",
+      "name": "SEOmonitor",
+      "url": "https://www.seomonitor.com/",
+      "foundingDate": "2010",
+      "description": "SEOmonitor is an SEO data and automation platform for SEO agencies and in-house teams, combining daily rank tracking, AI Overviews and AI search visibility tracking, automatic keyword research, SEO forecasting and AI-assisted content writing.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.seomonitor.com/#logo",
+        "url": "https://www.seomonitor.com/wp-content/uploads/2023/09/logo-white-on-black.png",
+        "contentUrl": "https://www.seomonitor.com/wp-content/uploads/2023/09/logo-white-on-black.png",
+        "caption": "SEOmonitor"
+      },
+      "image": { "@id": "https://www.seomonitor.com/#logo" },
+      "sameAs": [
+        "https://www.linkedin.com/company/seomonitor-application/",
+        "https://twitter.com/seomonitor"
+      ],
+      "knowsAbout": [
+        "Search engine optimization",
+        "SEO forecasting",
+        "Keyword research",
+        "SEO pitching and business cases",
+        "Content audits",
+        "Rank tracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.seomonitor.com/#website",
+      "url": "https://www.seomonitor.com/",
+      "name": "SEOmonitor",
+      "publisher": { "@id": "https://www.seomonitor.com/#organization" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.seomonitor.com/win-more-pitches#webpage",
+      "url": "https://www.seomonitor.com/win-more-pitches",
+      "name": "Win More Pitches with SEOmonitor: Tools for Agency Growth",
+      "description": "Impress prospects and win more SEO pitches with SEOmonitor's data-driven insights and tailored reports. Equip your agency with the tools to stand out.",
+      "isPartOf": { "@id": "https://www.seomonitor.com/#website" },
+      "about": { "@id": "https://www.seomonitor.com/win-more-pitches#software" },
+      "mainEntity": { "@id": "https://www.seomonitor.com/win-more-pitches#software" },
+      "breadcrumb": { "@id": "https://www.seomonitor.com/win-more-pitches#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.seomonitor.com/wp-content/uploads/2023/11/White.png"
+      },
+      "datePublished": "2023-10-06T11:42:58+00:00",
+      "dateModified": "2024-11-29T16:25:47+00:00",
+      "inLanguage": "en-US",
+      "significantLink": [
+        "https://www.seomonitor.com/seo-forecast/",
+        "https://www.seomonitor.com/seo-research/",
+        "https://www.seomonitor.com/content-audit/",
+        "https://www.seomonitor.com/pricing/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.seomonitor.com/win-more-pitches#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.seomonitor.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Client Acquisition",
+          "item": "https://www.seomonitor.com/win-more-pitches"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.seomonitor.com/win-more-pitches#software",
+      "name": "SEOmonitor for Client Acquisition",
+      "alternateName": "SEOmonitor SEO pitch and business case toolkit",
+      "url": "https://www.seomonitor.com/win-more-pitches",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "SEO software",
+      "operatingSystem": "Web browser (Chrome, Safari, Firefox, Edge)",
+      "description": "Build winning SEO business cases in minutes instead of days: automatic keyword research with AI grouping and fresh SERP data, accurate SEO forecasts for sessions and conversions with a Chance Indicator and Google Ads spend comparison, and automatic content audits that surface improvement ideas sorted by search-traffic impact.",
+      "isPartOf": {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.seomonitor.com/#software",
+        "name": "SEOmonitor",
+        "url": "https://www.seomonitor.com/",
+        "applicationCategory": "BusinessApplication"
+      },
+      "provider": { "@id": "https://www.seomonitor.com/#organization" },
+      "publisher": { "@id": "https://www.seomonitor.com/#organization" },
+      "softwareHelp": "https://help.seomonitor.com/",
+      "featureList": [
+        "Automatic keyword suggestions curated from existing rankings and selected competitors",
+        "AI-driven keyword grouping of thousands of keywords into meaningful categories",
+        "Fresh SERP data: live rankings, SERP features and search volumes on import",
+        "Personalized keyword difficulty that accounts for your website authority",
+        "Device-specific organic CTRs and share of clicks on organic results",
+        "Accurate search volumes and year-over-year trends",
+        "Keyword intent detection, seasonal labels and low-relevance filtering",
+        "Opportunity Score for prioritizing keywords by traffic impact",
+        "SEO forecasting for sessions and conversions using per-SERP-feature CTRs and real-time ranks",
+        "Flexible ranking goals with adjustable target ranges",
+        "Chance Indicator showing the likelihood of reaching the desired positions",
+        "Baseline forecasts for traffic and conversions at current rankings",
+        "Google Ads spend comparison for a clear ROI benchmark",
+        "Automatic content audits with Content Impact Ranking",
+        "Cannibalization reports and landing page change detection",
+        "Overloaded page detection and content gap analysis"
+      ],
+      "audience": {
+        "@type": "BusinessAudience",
+        "name": "SEO agencies and new business teams",
+        "audienceType": "SEO agencies, consultants and new business teams building SEO pitches, proposals and business cases for prospects"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "SEOmonitor free trial",
+        "description": "Start a free trial to get your automatic SEO strategy, with no spending commitment.",
+        "url": "https://app.seomonitor.com/v2/ungated/wizard",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "REPLACE_WITH_G2_REVIEW_COUNT"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewBody": "When we show up at a pitch with this level of SEO forecasting, we win the campaigns.",
+        "author": {
+          "@type": "Person",
+          "name": "Radu Marcusu",
+          "jobTitle": "CEO",
+          "worksFor": { "@type": "Organization", "name": "Upswing" }
+        },
+        "itemReviewed": { "@id": "https://www.seomonitor.com/win-more-pitches#software" }
+      },
+      "potentialAction": {
+        "@type": "RegisterAction",
+        "name": "Start a free trial",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://app.seomonitor.com/v2/ungated/wizard",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.seomonitor.com/win-more-pitches#howto",
+      "name": "How to build an SEO pitch with SEOmonitor",
+      "description": "Replace 8 to 14 hours of manual keyword research, prioritization, SERP checks, auditing and forecasting with three steps in SEOmonitor.",
+      "about": { "@id": "https://www.seomonitor.com/win-more-pitches#software" },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Set up your campaign",
+          "text": "Create a campaign for the prospect's website and let SEOmonitor pull fresh SERP data, live rankings and competitor context automatically.",
+          "url": "https://www.seomonitor.com/win-more-pitches#campaign"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Add your keywords",
+          "text": "Get a curated list of high-impact keywords based on existing rankings and selected competitors, with AI-powered grouping, intent detection, personalized difficulty and Opportunity Score.",
+          "url": "https://www.seomonitor.com/win-more-pitches#keywords"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Build your forecast",
+          "text": "Select ranking goals and get estimated sessions and conversions instantly, with a Chance Indicator, baseline forecasts and an equivalent Google Ads spend comparison to present the business case.",
+          "url": "https://www.seomonitor.com/win-more-pitches#forecast"
+        }
+      ]
+    }
+  ]
+}
