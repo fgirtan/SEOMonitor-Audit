@@ -1,0 +1,199 @@
+<!-- SEOmonitor structured data | /pricing | inject in <head> -->
+<!-- ATENTIE: completeaza toate valorile REPLACE_WITH_* din pagina live inainte de publicare (vezi README). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.seomonitor.com/#organization",
+      "name": "SEOmonitor",
+      "url": "https://www.seomonitor.com/",
+      "foundingDate": "2010",
+      "description": "SEOmonitor is an SEO data and automation platform for SEO agencies and in-house teams, combining daily rank tracking, AI Overviews and AI search visibility tracking, automatic keyword research, SEO forecasting and AI-assisted content writing.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.seomonitor.com/#logo",
+        "url": "https://www.seomonitor.com/wp-content/uploads/2023/09/logo-white-on-black.png",
+        "contentUrl": "https://www.seomonitor.com/wp-content/uploads/2023/09/logo-white-on-black.png",
+        "caption": "SEOmonitor"
+      },
+      "image": {
+        "@id": "https://www.seomonitor.com/#logo"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/seomonitor-application/",
+        "https://twitter.com/seomonitor"
+      ],
+      "knowsAbout": [
+        "Search engine optimization",
+        "Daily rank tracking",
+        "SEO forecasting",
+        "SEO client reporting",
+        "Client retention and churn prevention for SEO agencies",
+        "SEO campaign objective tracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.seomonitor.com/#website",
+      "url": "https://www.seomonitor.com/",
+      "name": "SEOmonitor",
+      "publisher": {
+        "@id": "https://www.seomonitor.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.seomonitor.com/pricing#webpage",
+      "url": "https://www.seomonitor.com/pricing",
+      "name": "REPLACE_WITH_PAGE_TITLE",
+      "description": "REPLACE_WITH_META_DESCRIPTION",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.seomonitor.com/#website"
+      },
+      "about": {
+        "@id": "https://www.seomonitor.com/#software"
+      },
+      "mainEntity": {
+        "@id": "https://www.seomonitor.com/#software"
+      },
+      "breadcrumb": {
+        "@id": "https://www.seomonitor.com/pricing#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.seomonitor.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.seomonitor.com/pricing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.seomonitor.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pricing",
+          "item": "https://www.seomonitor.com/pricing"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.seomonitor.com/#software",
+      "name": "SEOmonitor",
+      "url": "https://www.seomonitor.com/",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "SEO and AI Search Tracking Software",
+      "operatingSystem": "Web",
+      "provider": {
+        "@id": "https://www.seomonitor.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.seomonitor.com/#organization"
+      },
+      "softwareHelp": "https://help.seomonitor.com/",
+      "offers": {
+        "@type": "AggregateOffer",
+        "@id": "https://www.seomonitor.com/pricing#offers",
+        "url": "https://www.seomonitor.com/pricing",
+        "priceCurrency": "EUR",
+        "lowPrice": "25",
+        "highPrice": "299",
+        "offerCount": "3",
+        "offers": [
+          {
+            "@type": "Offer",
+            "@id": "https://www.seomonitor.com/pricing#offer-starter",
+            "name": "Starter",
+            "description": "REPLACE_WITH_STARTER_DESCRIPTION_FROM_PAGE",
+            "url": "https://www.seomonitor.com/pricing",
+            "category": "Subscription",
+            "price": "REPLACE_WITH_STARTER_PRICE",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "REPLACE_WITH_STARTER_PRICE",
+              "priceCurrency": "EUR",
+              "billingDuration": "P1M",
+              "unitText": "REPLACE_WITH_BILLING_UNIT"
+            },
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://www.seomonitor.com/#organization"
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.seomonitor.com/pricing#offer-pro",
+            "name": "Pro",
+            "description": "REPLACE_WITH_PRO_DESCRIPTION_FROM_PAGE",
+            "url": "https://www.seomonitor.com/pricing",
+            "category": "Subscription",
+            "price": "REPLACE_WITH_PRO_PRICE",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "REPLACE_WITH_PRO_PRICE",
+              "priceCurrency": "EUR",
+              "billingDuration": "P1M",
+              "unitText": "REPLACE_WITH_BILLING_UNIT"
+            },
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://www.seomonitor.com/#organization"
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.seomonitor.com/pricing#offer-plan3",
+            "name": "REPLACE_WITH_THIRD_PLAN_NAME",
+            "description": "REPLACE_WITH_THIRD_PLAN_DESCRIPTION_FROM_PAGE",
+            "url": "https://www.seomonitor.com/pricing",
+            "category": "Subscription",
+            "price": "REPLACE_WITH_PLAN3_PRICE",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "REPLACE_WITH_PLAN3_PRICE",
+              "priceCurrency": "EUR",
+              "billingDuration": "P1M",
+              "unitText": "REPLACE_WITH_BILLING_UNIT"
+            },
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://www.seomonitor.com/#organization"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "REPLACE_WITH_G2_REVIEW_COUNT"
+      },
+      "potentialAction": {
+        "@type": "RegisterAction",
+        "name": "Start a free trial",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://app.seomonitor.com/v2/ungated/wizard",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    }
+  ]
+}
+</script>

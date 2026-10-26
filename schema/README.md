@@ -9,6 +9,7 @@ dintre cele trei pagini nu avea structured data în momentul auditului
 | https://www.seomonitor.com/automation | `automation.jsonld` / `.html` | `SoftwareApplication` + `FAQPage` + `HowTo` |
 | https://www.seomonitor.com/win-more-pitches | `win-more-pitches.jsonld` / `.html` | `SoftwareApplication` + `HowTo` |
 | https://www.seomonitor.com/increase-retention | `increase-retention.jsonld` / `.html` | `SoftwareApplication` + `ItemList` |
+| https://www.seomonitor.com/pricing | `pricing.jsonld` / `.html` | `SoftwareApplication` + `AggregateOffer` cu câte un `Offer` per plan |
 
 Fișierele `.jsonld` conțin JSON-ul pur. Fișierele `.html` sunt aceleași date
 împachetate în `<script type="application/ld+json">`, gata de lipit.
@@ -66,6 +67,38 @@ blocul e invalid. Ai două opțiuni:
 
 Placeholder-ul e lăsat ca string tocmai ca să pice zgomotos în Rich Results
 Test dacă cineva publică fără să-l completeze.
+
+## /pricing — ce trebuie completat
+
+Pagina /pricing nu a putut fi citită direct când a fost scris blocul (domeniul
+era blocat din mediul de lucru), așa că doar structura și valorile deja
+confirmate sunt completate:
+
+- `AggregateOffer` cu `lowPrice` 25, `highPrice` 299, `offerCount` 3, EUR —
+  preluate din documentul „Seo Monitor Complete Schema” (blocul homepage)
+- planurile **Starter** și **Pro** — numele apar pe paginile de produs
+  („Included in Starter and Pro plans”); al treilea plan nu e confirmat
+- `WebPage`, `BreadcrumbList`, `RegisterAction` către trial — la fel ca la
+  celelalte pagini
+
+Înlocuiește din pagina live toate valorile `REPLACE_WITH_*`:
+
+| Placeholder | Ce pui |
+|---|---|
+| `REPLACE_WITH_PAGE_TITLE` / `REPLACE_WITH_META_DESCRIPTION` | `<title>` și meta description ale paginii |
+| `REPLACE_WITH_STARTER_PRICE`, `..._PRO_PRICE`, `..._PLAN3_PRICE` | prețul afișat, doar cifra (`"99"`, nu `"€99"`) |
+| `REPLACE_WITH_BILLING_UNIT` | unitatea afișată, ex. `per month`, `per 100 keywords / month` |
+| `REPLACE_WITH_*_DESCRIPTION_FROM_PAGE` | textul scurt de sub numele planului |
+| `REPLACE_WITH_THIRD_PLAN_NAME` | numele celui de-al treilea plan; dacă nu există, șterge oferta și pune `offerCount` 2 |
+| `REPLACE_WITH_G2_REVIEW_COUNT` | ca mai sus |
+
+După completare, `lowPrice` și `highPrice` trebuie să fie exact cel mai mic și
+cel mai mare preț dintre oferte. Dacă prețul depinde de numărul de keywords
+(calculator/slider), pune la fiecare plan prețul de pornire afișat și
+`unitText` corespunzător.
+
+Pe /pricing pune blocul acesta în locul nodului `#software` minimal folosit
+pe celelalte pagini: e același `@id`, deci Google le consolidează.
 
 ## Note despre rich results
 
